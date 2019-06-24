@@ -52,6 +52,11 @@ class AdminController extends Controller
 
    public function kategori()
    {
-       $this->page('kategori');s
+       $this->page('kategori');
+   }
+
+   public function detailtrans()
+   {
+        $this->page('detail');
    }
 }
